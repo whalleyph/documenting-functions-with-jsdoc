@@ -4,7 +4,7 @@
  * 
  * @param {number} NUM - input number
  * 
- * @returns {number} 'NUM' - input number (always negative)
+ * @returns {number} if 'NUM' is positve: '-NUM' else: 'NUM'
  */
 function asNegative(NUM) {
   if (NUM > 0) {
